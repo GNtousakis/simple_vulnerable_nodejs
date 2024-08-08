@@ -17,7 +17,7 @@
 To use the `dec` function in your Node.js application:
 
 ```js
-const myLibrary = require('./myLibrary');
+const myLibrary = require('./index.js');
 
 const jsonString = '{"key": "value"}';
 const obj = myLibrary.dec(jsonString);
